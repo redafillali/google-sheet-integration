@@ -1,0 +1,27 @@
+{
+  "name": "redaelfillali/google-sheet-integration",
+  "description": "Laravel package for Google Sheet integration",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Reda Elfillali",
+      "email": "reda.elfillali@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "google/apiclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RedaElfillali\\GoogleSheetIntegration\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RedaElfillali\\GoogleSheetIntegration\\GoogleSheetServiceProvider"
+      ]
+    }
+  }
+}
