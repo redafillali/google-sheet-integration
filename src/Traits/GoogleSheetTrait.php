@@ -18,7 +18,7 @@ trait GoogleSheetTrait
     protected function initializeGoogleSheet()
     {
         $client = new Google_Client();
-        $client->setAuthConfig(config('googlesheet.credentials_path'));
+        $client->setAuthConfig(storage_path(config('googlesheet.credentials_path')));
         $client->addScope(Google_Service_Sheets::SPREADSHEETS);
 
         return new Google_Service_Sheets($client);
