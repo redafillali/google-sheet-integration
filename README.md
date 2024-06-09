@@ -24,35 +24,21 @@ A Laravel 10 package to integrate Google Sheets, allowing you to link a model to
 
 ## Step-by-Step Guide
 
-1. **Add the package to your `composer.json` file:**
-
-```json
-"repositories": [
-    {
-        "type": "path",
-        "url": "packages/redaelfillali/google-sheet-integration"
-    }
-],
-"require": {
-    "redaelfillali/google-sheet-integration": "@dev"
-}
-```
-2. **Install the package via Composer:**
+1. **Install the package via Composer:**
 
 ```bash
 composer require redaelfillali/google-sheet-integration
 ```
 
-3. **Publish the package configuration file:**
+2. **Publish the package configuration file:**
 
 ```bash
 php artisan vendor:publish --provider="RedaElfillali\\GoogleSheetIntegration\\GoogleSheetServiceProvider" --tag=config
 ```
-4. **Add the following environment variables to your `.env` file:**
+3. **Add the following environment variables to your `.env` file:**
 
 ```env
 GOOGLE_SHEET_CREDENTIALS_PATH=/path/to/credentials.json
-GOOGLE_SHEET_SPREADSHEET_ID=your_spreadsheet_id
 ```
 
 # Usage
