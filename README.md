@@ -58,3 +58,4 @@ GOOGLE_SHEET_SPREADSHEET_ID=your_spreadsheet_id
 # Usage
 
 The usage documentation can be found in the [Usage](docs/usage.md).
+
