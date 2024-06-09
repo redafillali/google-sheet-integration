@@ -20,7 +20,7 @@ A Laravel 10 package to integrate Google Sheets, allowing you to link a model to
 ## Prerequisites
 
 1. Ensure you have [Composer](https://getcomposer.org/) installed.
-2. Set up a Google Cloud project with the Sheets API enabled and create a service account with JSON credentials. [Follow this guide](https://developers.google.com/sheets/api/quickstart/php) to set up the Google Sheets API and create a service account.
+2. Set up a Google Cloud project with the Sheets API enabled and create a service account with JSON credentials. [Follow this guide](docs/google-cloud-service.md) to set up the Google Sheets API and create a service account.
 
 ## Step-by-Step Guide
 
