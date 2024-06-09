@@ -2,6 +2,7 @@
   "name": "redaelfillali/google-sheet-integration",
   "description": "Laravel package for Google Sheet integration",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Reda Elfillali",
