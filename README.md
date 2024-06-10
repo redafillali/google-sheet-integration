@@ -3,9 +3,8 @@
 A Laravel 10 package to integrate Google Sheets, allowing you to link a model to a Google Sheet, update the Google Sheet, and add new rows for each new value of the selected model. Customize the mapping of Google Sheet columns to model values.
 
 <p align="center">
-<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/v/ahinkle/packagist-latest-version.svg?style=flat" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://styleci.io/repos/248259797/shield?branch=master" alt="Style CI"></a>
-<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/dt/ahinkle/packagist-latest-version.svg?style=flat" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/v/redaelfillali/google-sheet-integration.svg?style=flat" alt="Latest Stable Version"></a>
+<a href="https://img.shields.io/packagist/dt/redaelfillali/google-sheet-integration.svg?style=flat" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License"></a>
 </p>
 
