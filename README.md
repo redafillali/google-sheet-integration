@@ -4,6 +4,9 @@ A Laravel 10 package to integrate Google Sheets, allowing you to link a model to
 
 <p align="center">
 <a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/v/redaelfillali/google-sheet-integration.svg?style=flat" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/stars/redaelfillali/google-sheet-integration.svg?style=flat" alt="Stars"></a>
+<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/dependency-v/redaelfillali/google-sheet-integration/php.svg?style=flat" alt="Php"></a>
+<a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/dependency-v/redaelfillali/google-sheet-integration/google%2Fapiclient.svg?style=flat" alt="Google API client"></a>
 <a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/dt/redaelfillali/google-sheet-integration.svg?style=flat" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License"></a>
 </p>
@@ -18,8 +21,8 @@ A Laravel 10 package to integrate Google Sheets, allowing you to link a model to
 
 ## Requirements
 
-- PHP >= 8.0
-- Laravel 10
+- PHP >= 7+
+- Laravel 8+
 - Google API Client Library
 
 # Installation
