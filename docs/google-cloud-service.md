@@ -54,10 +54,16 @@ GOOGLE_SHEET_CREDENTIALS_PATH=/path/to/credentials.json
 GOOGLE_SHEET_CREDENTIALS_PATH=app/credentials.json
 ```
 
+** Note: ** You can also publish the configuration file and set the environment variables in the `config/googlesheet.php` file.
+```bash
+php artisan vendor:publish --provider="RedaElfillali\\GoogleSheetIntegration\\GoogleSheetServiceProvider" --tag=config
+```
+
+
 9. **Use the Google Sheets API in Your Laravel Application:**
 
     - You can now use the Google Sheets API in your Laravel application to read, write, and update Google Sheets.
     
 # Usage
 
-Find the usage documentation in the [Usage](docs/usage.md) guide.
+Find the usage documentation in the [Usage](usage.md) guide.

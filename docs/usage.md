@@ -7,11 +7,11 @@ This example demonstrates how to use the Google Sheet Integration package in a L
 ### Step 1: Add the `GoogleSheet` Trait to you Model
   
   ```php
-  use RedaElfillali\GoogleSheetIntegration\Traits\GoogleSheet;
+  use RedaElfillali\GoogleSheetIntegration\Traits\GoogleSheetTrait;
 
   class YourModel extends Model
   {
-      use GoogleSheet;
+      use GoogleSheetTrait;
   }
   ```
   
