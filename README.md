@@ -1,6 +1,6 @@
 # Google Sheet Integration for Laravel
 
-A Laravel 10 package to integrate Google Sheets, allowing you to link a model to a Google Sheet, update the Google Sheet, and add new rows for each new value of the selected model. Customize the mapping of Google Sheet columns to model values.
+A Laravel package to integrate Google Sheets, allowing you to link a model to a Google Sheet, update the Google Sheet, and add new rows for each new value of the selected model. Customize the mapping of Google Sheet columns to model attributes.
 
 <p align="center">
 <a href="https://packagist.org/packages/redaelfillali/google-sheet-integration"><img src="https://img.shields.io/packagist/v/redaelfillali/google-sheet-integration.svg?style=flat" alt="Latest Stable Version"></a>
@@ -18,6 +18,7 @@ A Laravel 10 package to integrate Google Sheets, allowing you to link a model to
 - Update Google Sheets with model data
 - Add new rows to Google Sheets when new model values are added
 - Customize the column mapping between the Google Sheet and model attributes
+- Optimized vendor footprint — only the Sheets service is installed (326 unused Google API services excluded via Composer cleanup)
 
 ## Requirements
 
@@ -48,7 +49,7 @@ php artisan vendor:publish --provider="RedaElfillali\\GoogleSheetIntegration\\Go
 3. **Add the following environment variables to your `.env` file:**
 
 ```env
-GOOGLE_SHEET_CREDENTIALS_PATH=/path/to/credentials.json
+GOOGLE_SHEET_CREDENTIALS_PATH=app/google-service.json
 ```
 
 # Usage

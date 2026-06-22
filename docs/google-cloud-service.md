@@ -35,12 +35,7 @@ To create a credentials file for the Google Sheets API and use it in your Larave
 
     - Move the JSON key file to the `storage` folder of your Laravel application.
 
-7. **Set the Environment Variables:**
-
-    - Add the path to the JSON key file to your Laravel application's `.env` file.
-    - Add the Google Sheet ID to the `.env` file.
-
-8. **Add the Environment Variables to the `.env` File:**
+7. **Add the Environment Variables to the `.env` File:**
 
     - Add the following environment variables to your `.env` file:
 
