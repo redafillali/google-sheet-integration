@@ -55,7 +55,7 @@ php artisan vendor:publish --provider="RedaElfillali\\GoogleSheetIntegration\\Go
 ```
 
 
-9. **Use the Google Sheets API in Your Laravel Application:**
+8. **Use the Google Sheets API in Your Laravel Application:**
 
     - You can now use the Google Sheets API in your Laravel application to read, write, and update Google Sheets.
     
